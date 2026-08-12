@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @theme{
-  
+  --color-primary_red:#DB4444;
+  --color-primary_green:#00FF66;
+  --color-imgs_icons_bg:#F5F5F5;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-titles:600;
+  --font-weight-medium:500;
+
 }
 html {
   scroll-behavior: smooth;
@@ -8,6 +15,13 @@ html {
 
 body {
   margin: 0;
+}
+@layers utilities  {
+  .add_to_cart_btn{
+    @apply bg-black text-white width-[270px] height-[41px] rounded-[4px] font-weight-medium text-[16]
+  }
+
+  
 }
 
 @layer components {
