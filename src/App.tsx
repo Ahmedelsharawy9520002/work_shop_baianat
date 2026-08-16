@@ -8,7 +8,7 @@ import Cart from './Pages/Cart'
 import Wishlist from './Pages/Wishlist'
 import Announcement from './Components/Layouts/Announcement'
 import Notfound from "./Pages/Notfound"
-
+import Footer from "./Components/Layouts/Footer"
 function App() {
   return (
     <>
@@ -23,6 +23,8 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/notfound" element={<Notfound/>}/>
       </Routes>
+      <Footer />
+
     </>
   )
 }

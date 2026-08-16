@@ -18,10 +18,50 @@ body {
 }
 @layers utilities  {
   .add_to_cart_btn{
-    @apply bg-black text-white width-[270px] height-[41px] rounded-[4px] font-weight-medium text-[16]
+    @apply bg-black text-white w-[270px] h-[41px] rounded-sm  text-[16px]
+  },
+  .flash_sale_box{
+    @apply text-white bg-[#DB4444] rounded-sm px-3 py-1
+  },
+  .category{
+    @apply text-black rounded-sm w-[170px] h-[145px] bg-white hover:bg-[#DB4444] text-white 
   }
-
-  
+  .product_img{
+    @apply w-[270px] h-[250px]
+  }
+  .red_btn{
+    @apply text-white bg-[#DB4444] rounded-sm px-[48px] py-[16px]
+  }
+  .signup_btn{
+    @apply rounded-sm px-[48px] py-[16px]
+  }
+  .whishlist_btn{
+    @apply text-black bg-white border border-black rounded-sm px-[48px] py-[16px]
+  }
+  .product_cart{
+    @apply w-[1170px] h-[102px] bg-[#ffffff] text-black
+  },
+  .billing_details{
+    @apply w-[470px] h-[50px] text-black bg-[#F5F5F5]
+  }
+  .edit_profile{
+    @apply  w-[330px] h-[50px] bg-[#F5F5F5] text-black
+  }
+  .edit_profile_password{
+    @apply w-[710px] h-[50px] bg-[#F5F5F5] text-black
+  }
+  .about_boxes{
+    @apply w-[270px] h-[230px] border border-[#F5F5F5] text-black font-[700px] font-bold hover:bg-[#DB4444] text-white border-[#DB4444]
+  }
+  .input_contact{
+    @apply w-[235px] h-[50px] bg-[#F5F5F5] text-black
+  }
+  .product_imgs{
+    @apply w-[170px] h-[138px] bg-[#F5F5F5]
+  }
+  .product_size{
+    @apply w-[32px] h-[32px] border border-[#F5F5F5] text-black rounded-sm focus:bg-[#DB4444] text-white
+  }
 }
 
 @layer components {
